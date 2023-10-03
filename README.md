@@ -1,6 +1,7 @@
 # Alfood 🍽️
 
-Alfood is a dynamic website 🌐 that serves as a comprehensive platform for discovering and exploring various restaurants 🏙️ and their delectable menu offerings 🍔. This project is in its early stages, with exciting new features and improvements in the pipeline 🚀.
+Alfood is a dynamic website 🌐 that serves as a comprehensive platform for discovering and exploring various restaurants 🏙️ and their delectable menu offerings 🍔.
+Project from Alura Cursos
 
 ![Alfood Image](screencapture.png)
 
