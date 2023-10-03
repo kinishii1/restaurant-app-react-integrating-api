@@ -1,33 +1,26 @@
-![Integrando seu projeto React com APIs](thumbnail.png)
+# Alfood 🍽️
 
-# Alfood
+Alfood is a dynamic website 🌐 that serves as a comprehensive platform for discovering and exploring various restaurants 🏙️ and their delectable menu offerings 🍔. This project is in its early stages, with exciting new features and improvements in the pipeline 🚀.
 
-O Alfood é um site que lista restaurantes e pratos do menu. 
-É um MVP que tá só começando e ainda tem muitas funcionalidades novas para serem desenvolvidas.
+![Alfood Image](screencapture.png)
 
-<img src="screencapture.png" alt="Imagem do Alfood" width="50%">
-
-
-## 🔨 Funcionalidades do projeto
-
-O Alfood começa com uma listagem estática de seu conteúdo e é esse o problema que queremos resolver.
-No decorrer do curso, vamos implementar toda a camada de comunicação com a API.
-
-## ✔️ Técnicas e tecnologias utilizadas
-
-Se liga nessa lista de tudo que usaremos nesse treinamento:
+## ✔️ Key Techniques and Technologies Utilized
 
 - `React`
+
 - `React Hooks`
+
 - `TypeScript`
+
 - `axios`
 
-## 🛠️ Abrir e rodar o projeto
+- `Docker`: Docker is leveraged to create a containerized environment 🐳, simulating a web API for testing and development purposes 🛠️.
 
-Para abrir e rodar o projeto, execute npm i para instalar as dependências e npm start para inicar o projeto.
+Alfood is continually evolving, and the development team is dedicated to adding new functionalities and enhancing the user experience 📈. Stay tuned for more updates and exciting features!
 
-Depois, acesse <a href="http://localhost:3000/">http://localhost:3000/</a> no seu navegador.
+## 📷 Key Techniques and Technologies Utilized
 
-## 📚 Mais informações do curso
-
-Busque na plataforma da Alura o curso **Integrando seu projeto React com APIs** publicado na Escola Frontend.
+<p align="center">
+  <img src="https://github.com/kinishii1/restaurant-app-react-integrating-api/blob/main/Alfood%201.gif" alt="Alfood Image">
+</p>
+<p align='center'>Homepage</p>
