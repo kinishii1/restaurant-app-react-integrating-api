@@ -18,7 +18,7 @@ Alfood is a dynamic website 🌐 that serves as a comprehensive platform for dis
 
 Alfood is continually evolving, and the development team is dedicated to adding new functionalities and enhancing the user experience 📈. Stay tuned for more updates and exciting features!
 
-## 📷 Key Techniques and Technologies Utilized
+## 📷 Screenshots
 
 <p align='center'>Homepage</p>
 <p align="center">
