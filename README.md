@@ -24,3 +24,29 @@ Alfood is continually evolving, and the development team is dedicated to adding 
   <img src="https://github.com/kinishii1/restaurant-app-react-integrating-api/blob/main/Alfood%201.gif" alt="Alfood Image">
 </p>
 <p align='center'>Homepage</p>
+
+<p align="center">
+  <img src="https://github.com/kinishii1/restaurant-app-react-integrating-api/blob/main/Alfood%202.gif" alt="Alfood Image">
+</p>
+<p align='center'>Homepage</p>
+
+<p align="center">
+  <img src="https://github.com/kinishii1/restaurant-app-react-integrating-api/blob/main/Alfood%203.gif" alt="Alfood Image">
+</p>
+<p align='center'>Homepage</p>
+
+<p align="center">
+  <img src="https://github.com/kinishii1/restaurant-app-react-integrating-api/blob/main/Alfood%204.gif" alt="Alfood Image">
+</p>
+<p align='center'>Homepage</p>
+
+<p align="center">
+  <img src="https://github.com/kinishii1/restaurant-app-react-integrating-api/blob/main/Alfood%205.gif" alt="Alfood Image">
+</p>
+<p align='center'>Homepage</p>
+
+<p align="center">
+  <img src="https://github.com/kinishii1/restaurant-app-react-integrating-api/blob/main/Alfood%206.gif" alt="Alfood Image">
+</p>
+<p align='center'>Homepage</p>
+
