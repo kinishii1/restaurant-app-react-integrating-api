@@ -10,56 +10,63 @@ import {
   Typography,
 } from "@mui/material";
 import { useEffect, useState } from "react";
-import IRestaurante from "../../../interfaces/IRestaurante";
+import IPrato from "../../../interfaces/IPrato";
 import { Link } from "react-router-dom";
 import url from "../../../url";
 
-function AdmRestaurantes() {
-  const [restaurantes, setRestaurantes] = useState<IRestaurante[]>([]);
+function AdmPratos() {
+  const [Pratos, setPratos] = useState<IPrato[]>([]);
 
   useEffect(() => {
     url
-      .get<IRestaurante[]>("/restaurantes/")
+      .get<IPrato[]>("/pratos/")
       .then((response) => {
-        setRestaurantes(response.data);
+        setPratos(response.data);
       })
       .catch((error) => console.log(error));
   }, []);
 
-  const deleteRestaurant = ({ id }: IRestaurante) => {
+  const deletePlate = ({ id }: IPrato) => {
     url
-      .delete<IRestaurante>(`/restaurantes/${id}/`)
+      .delete<IPrato>(`/pratos/${id}/`)
       .then(() => {
-        const newRestaurantes = restaurantes.filter((item) => item.id !== id);
-        setRestaurantes([...newRestaurantes]);
+        const newPratos = Pratos.filter((item) => item.id !== id);
+        setPratos([...newPratos]);
       })
       .catch((error) => console.log(error));
   };
 
   return (
     <>
-      <Typography variant="h4" textAlign='center' sx={{mb: 5}} >Formulario de Restaurantes</Typography>
+      <Typography variant="h4" textAlign="center" sx={{ mb: 5 }}>
+        Formulario de Pratos
+      </Typography>
       <TableContainer component={Paper}>
         <Table>
           <TableHead>
             <TableRow>
               <TableCell>Nome</TableCell>
+              <TableCell>Tag</TableCell>
+              <TableCell>Imagem</TableCell>
               <TableCell>Editar</TableCell>
               <TableCell>Excluir</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
-            {restaurantes.map((item) => (
+            {Pratos.map((item) => (
               <TableRow key={item.id}>
                 <TableCell>{item.nome}</TableCell>
+                <TableCell>{item.tag}</TableCell>
                 <TableCell>
-                  [<Link to={`/admin/restaurantes/${item.id}`}> Editar </Link>]
+                  <a href={item.imagem} target="_blank" rel="noreferrer">
+                    Imagem
+                  </a>
                 </TableCell>
                 <TableCell>
                   <Button
                     variant="outlined"
                     color="error"
-                    onClick={() => deleteRestaurant(item)}
+                    onClick={() => deletePlate(item)}
                   >
                     Excluir
                   </Button>
@@ -73,4 +80,4 @@ function AdmRestaurantes() {
   );
 }
 
-export default AdmRestaurantes;
+export default AdmPratos;

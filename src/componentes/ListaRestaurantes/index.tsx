@@ -38,7 +38,7 @@ const ListaRestaurantes = () => {
         Os restaurantes mais <em>bacanas</em>!
       </h1>
       {restaurantes?.map((item) => (
-        <Restaurante restaurante={item} key={item.id} />
+        <Restaurante restaurante={item} key={item.id} id={item.id}/>
       ))}
       {proximaPagina && <button onClick={seeMore}>Carregar mais</button>}
     </section>
