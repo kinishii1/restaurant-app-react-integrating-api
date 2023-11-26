@@ -17,7 +17,7 @@ Project from Alura Cursos
 
 - `Docker`: Docker is leveraged to create a containerized environment 🐳, simulating a web API for testing and development purposes 🛠️.
 
-- - `MUI`
+- `MUI`
 
 Alfood is continually evolving, and the development team is dedicated to adding new functionalities and enhancing the user experience 📈. Stay tuned for more updates and exciting features!
 
